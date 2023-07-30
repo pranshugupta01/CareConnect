@@ -102,13 +102,13 @@ Please note that the usage of Google Dialogflow requires Google credits, which y
    As the user types or submits each line with a full stop at the end, Care Connect performs an analysis of the text using the machine learning model.
 
 3. **Depression Level Detection:**
-   The machine learning model evaluates the content of the line and assigns a depression level score. If the score is below 65%, indicating a lower risk of depression, the process continues to the next line.
+   The machine learning model evaluates the content of the line and assigns a depression level score. If the score is below 80%, indicating a lower risk of depression, the process continues to the next line.
 
 4. **Chatbot Intervention:**
-   If the depression level is detected to be less than 65%, Care Connect triggers the appearance of the chatbot. The chatbot offers comforting responses, encouraging the user to talk about their feelings and providing appropriate emotional support. The chatbot may also suggest coping strategies, self-care tips, or helpful resources.
+   If the depression level is detected to be less than 80%, Care Connect triggers the appearance of the chatbot. The chatbot offers comforting responses, encouraging the user to talk about their feelings and providing appropriate emotional support. The chatbot may also suggest coping strategies, self-care tips, or helpful resources.
 
 5. **Relatives Notification:**
-   On the other hand, if the machine learning model detects a depression level score greater than or equal to 65%, it initiates the notification process. Care Connect sends a discreet message to the user's designated relatives, such as parents or close friends, informing them about the situation. The message might include a brief note expressing concern for the user's well-being and recommending they check in with the individual.
+   On the other hand, if the machine learning model detects a depression level score greater than or equal to 80%, it initiates the notification process. Care Connect sends a discreet message to the user's designated relatives, such as parents or close friends, informing them about the situation. The message might include a brief note expressing concern for the user's well-being and recommending they check in with the individual.
 
 6. **Timely Intervention:**
    The notification to relatives ensures that a support network is aware of the user's potential emotional struggle. Timely intervention by concerned relatives can help provide additional care, empathy, and professional assistance if needed.
