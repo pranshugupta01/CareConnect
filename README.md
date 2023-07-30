@@ -1,6 +1,5 @@
 # CareConnect
-
-![CareConnect Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2Fcarecom%2Fvideos&psig=AOvVaw25rtpNdD9Mh7OMmxKH0k4o&ust=1690804928041000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODJ1qqxtoADFQAAAAAdAAAAABAE)
+Empowering hope in dark moments.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -19,7 +18,7 @@
 ## Overview
 CareConnect is a browser extension designed to provide compassionate support and assistance to users who may be going through difficult emotional times. The extension monitors the user's browsing activities and messages, detecting distress signals related to depression and suicidal thoughts. When necessary, the extension offers a chatbot for emotional support or reaches out to the user's loved ones or relevant helpline services to ensure their well-being.
 
-The project is built using JavaScript, Node.js,Python and Flask. It utilizes Google Cloud credits for some of its functionalities.
+The project is built using JavaScript, Node.js,Python and Flask. It utilizes Google Cloud credits for its functionalities to work.
 
 
 ## Features
@@ -33,17 +32,15 @@ The project is built using JavaScript, Node.js,Python and Flask. It utilizes Goo
 
 ## Installation
 1. Clone the repository to your local machine using the following command:
-git clone https://github.com/pranshugupta01/CareConnect.git
+   git clone https://github.com/pranshugupta01/CareConnect.git
 
 2. Navigate to the project directory:
-cd CareConnect
+   cd CareConnect
 
 3. Install the required dependencies:
-npm install
+   npm install
 
-4. (Add any specific instructions related to setting up Google Cloud credits or other external services if needed.)
-
-5. Install modules from requirements.txt file using command :
+4. Install modules from requirements.txt file using command :
    pip3 install -r requirements.txt 
 
 
@@ -53,19 +50,6 @@ npm install
 3. Enable Developer Mode in the top right corner.
 4. Click on "Load Unpacked" and select the `CareConnect` folder from your local machine.
 5. The extension should now be installed and ready to use.
-
-
-## Supported Platforms
-- Google Chrome, Brave Browser, Edge, Firefox
-- Operating Systems: Windows, macOS, Linux
-
-
-## Dependencies and Technologies
-- JavaScript
-- Node.js
-- Python
-- Jupyter Notebook
-- Flask
 
 
 ## Configuration
@@ -92,6 +76,19 @@ Follow the steps below to configure the integration:
    - In the appropriate part of the code (where chatbot functionality is invoked), establish a connection with Google Dialogflow using the credentials loaded from the environment variables.
 
 Please note that the usage of Google Dialogflow requires Google credits, which you can obtain through the Google Cloud platform. Ensure you have adequate credits to use Dialogflow as part of the Care Connect extension.
+
+
+## Supported Platforms
+- Google Chrome, Brave Browser, Edge, Firefox
+- Operating Systems: Windows, macOS, Linux
+
+
+## Dependencies and Technologies
+- JavaScript
+- Node.js
+- Python
+- Jupyter Notebook
+- Flask
 
 
 ## Usage Examples
