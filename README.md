@@ -41,7 +41,7 @@ The project is built using JavaScript, Node.js,Python and Flask. It utilizes Goo
    npm install
 
 4. Install modules from requirements.txt file using command :
-   pip3 install -r requirements.txt 
+   pip install -r requirements.txt 
 
 
 ## Setup
@@ -85,7 +85,6 @@ Please note that the usage of Google Dialogflow requires Google credits, which y
 
 ## Dependencies and Technologies
 - JavaScript
-- Node.js
 - Python
 - Jupyter Notebook
 - Flask
